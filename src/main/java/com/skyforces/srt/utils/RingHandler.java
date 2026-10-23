@@ -22,6 +22,7 @@ public class RingHandler {
 
             boolean hasFlightRing = false;
             boolean hasNightVisionRing = false;
+            boolean hasSpeedRing = false;
 
             for(ItemStack stack : player.inventory.items) {
                 if(stack.getItem() == SRTMod.FLIGHT_RING.get()) {
@@ -29,6 +30,9 @@ public class RingHandler {
                 }
                 if(stack.getItem() == SRTMod.NIGHT_VISION_RING.get()) {
                     hasNightVisionRing = true;
+                }
+                if(stack.getItem() == SRTMod.SPEED_RING.get()) {
+                    hasSpeedRing = true;
                 }
             }
 
@@ -48,6 +52,10 @@ public class RingHandler {
 
             if(hasNightVisionRing) {
                 player.addEffect(new EffectInstance(Effects.NIGHT_VISION, 220, 0, false, false));
+            }
+
+            if(hasSpeedRing) {
+                player.addEffect(new EffectInstance(Effects.MOVEMENT_SPEED, 220, 1, false, false));
             }
         }
     }

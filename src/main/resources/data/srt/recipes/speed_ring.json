@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DGD",
+    "GFG",
+    "DGD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:ender_pearl"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "F": {
+      "item": "srt:night_vision_ring"
+    }
+  },
+  "result": {
+    "item": "srt:speed_ring"
+  }
+}

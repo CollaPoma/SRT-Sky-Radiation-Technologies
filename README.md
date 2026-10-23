@@ -9,12 +9,15 @@ This mod introduces unique rings with special abilities, advanced technology, an
 - **Custom Creative Tab:** `SRT: Rings` (located on the second page).
 - **Flight Ring:** Grants creative-style flight in Survival mode (double-jump to activate).
 - **Night Vision Ring:** Grants permanent Night Vision while in the inventory (no particles).
-- **Custom Crafting Recipes:** Unique recipes for each ring.
+- **Speed Ring:** Grants Speed II while in the inventory.
+- **Custom Crafting Recipes:** Unique recipes for each ring (including ring upgrades).
+- **Custom 16x16 Textures:** Hand-drawn pixel art for all items.
 
 ## 🚀 Planned Features
-- 3 more rings (Speed, Invisibility, Radiation).
+- 2 more rings (Invisibility, Radiation).
+- A custom GUI "Ring Case" to store up to 5 rings.
 - Advanced machines, reactors, and radiation mechanics.
-- Custom textures and animations.
+- Custom animations and 3D models.
 
 ## 📦 Installation
 1. Install **Minecraft Forge 1.16.5** (version 36.2.42 or higher).
@@ -23,9 +26,10 @@ This mod introduces unique rings with special abilities, advanced technology, an
 4. Launch the game!
 
 ## 🧑‍💻 For Developers
-This mod is built using **Forge 1.16.5** and **Java 17 (or higher)**.
+This mod is built using **Forge 1.16.5** and **Java 17** (compatible with Java 8).
 - Main class: `com.skyforces.srt.SRTMod`
 - Event Handlers: `com.skyforces.srt.utils.RingHandler`
+- Item Classes: `com.skyforces.srt.items`
 
 ## 📜 License
 This project is licensed under the **MIT License**.
