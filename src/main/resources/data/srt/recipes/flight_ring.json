@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "PFP",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "minecraft:feather"
+    },
+    "F": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "srt:flight_ring"
+  }
+}
