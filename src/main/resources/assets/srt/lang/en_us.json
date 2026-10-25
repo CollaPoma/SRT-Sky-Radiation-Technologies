@@ -2,5 +2,7 @@
   "itemGroup.srt_tab": "SRT: Rings",
   "item.srt.flight_ring": "Flight Ring",
   "item.srt.night_vision_ring": "Night Vision Ring",
-  "item.srt.speed_ring": "Speed Ring"
+  "item.srt.speed_ring": "Speed Ring",
+  "item.srt.radiation_ring": "Radiation Ring",
+  "item.srt.invisibility_ring": "Invisibility Ring"
 }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "PFP",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "minecraft:nether_star"
+    },
+    "F": {
+      "item": "srt:invisibility_ring"
+    }
+  },
+  "result": {
+    "item": "srt:radiation_ring"
+  }
+}

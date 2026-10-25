@@ -23,6 +23,8 @@ public class RingHandler {
             boolean hasFlightRing = false;
             boolean hasNightVisionRing = false;
             boolean hasSpeedRing = false;
+            boolean hasInvisibilityRing = false;
+            boolean hasRadiationRing = false;
 
             for(ItemStack stack : player.inventory.items) {
                 if(stack.getItem() == SRTMod.FLIGHT_RING.get()) {
@@ -33,6 +35,12 @@ public class RingHandler {
                 }
                 if(stack.getItem() == SRTMod.SPEED_RING.get()) {
                     hasSpeedRing = true;
+                }
+                if(stack.getItem() == SRTMod.INVISIBILITY_RING.get()) {
+                    hasInvisibilityRing = true;
+                }
+                if(stack.getItem() == SRTMod.RADIATION_RING.get()) {
+                    hasRadiationRing = true;
                 }
             }
 
@@ -56,6 +64,17 @@ public class RingHandler {
 
             if(hasSpeedRing) {
                 player.addEffect(new EffectInstance(Effects.MOVEMENT_SPEED, 220, 1, false, false));
+            }
+            if(hasInvisibilityRing) {
+                player.addEffect(new EffectInstance(Effects.INVISIBILITY, 220, 1, false, false));
+            }
+            if (hasRadiationRing) {
+                player.addEffect(new EffectInstance(Effects.DAMAGE_BOOST, 220, 1, false, false));
+                player.addEffect(new EffectInstance(Effects.DAMAGE_RESISTANCE, 220, 1, false, false));
+                player.addEffect(new EffectInstance(Effects.HUNGER, 220, 0, false, false));
+                if (player.getRandom().nextInt(100) < 5) {
+                    player.addEffect(new EffectInstance(Effects.POISON, 100, 0, false, false));
+                }
             }
         }
     }

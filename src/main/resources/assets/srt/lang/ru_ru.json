@@ -2,5 +2,7 @@
   "itemGroup.srt_tab": "SRT: Кольца",
   "item.srt.flight_ring": "Кольцо Полета",
   "item.srt.night_vision_ring": "Кольцо Ночного Видения",
-  "item.srt.speed_ring": "Кольцо Скорости"
+  "item.srt.speed_ring": "Кольцо Скорости",
+  "item.srt.radiation_ring": "Кольцо Радиации",
+  "item.srt.invisibility_ring": "Кольцо Невидимости"
 }

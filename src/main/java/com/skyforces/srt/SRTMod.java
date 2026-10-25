@@ -4,9 +4,7 @@
 */
 package com.skyforces.srt;
 
-import com.skyforces.srt.items.ItemFlightRing;
-import com.skyforces.srt.items.ItemNightVisionRing;
-import com.skyforces.srt.items.ItemSpeedRing;
+import com.skyforces.srt.items.*;
 import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -23,6 +21,9 @@ public class SRTMod {
     public static final RegistryObject<Item> FLIGHT_RING = ITEMS.register("flight_ring", ItemFlightRing::new);
     public static final RegistryObject<Item> NIGHT_VISION_RING = ITEMS.register("night_vision_ring", ItemNightVisionRing::new);
     public static final RegistryObject<Item> SPEED_RING = ITEMS.register("speed_ring", ItemSpeedRing::new);
+    public static final RegistryObject<Item> RADIATION_RING = ITEMS.register("radiation_ring", ItemRadiationRing::new);
+    public static final RegistryObject<Item> INVISIBILITY_RING = ITEMS.register("invisibility_ring", ItemInvisibilityRing::new);
+
 
     public SRTMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

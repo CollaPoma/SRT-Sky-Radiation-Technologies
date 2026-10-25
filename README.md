@@ -7,16 +7,20 @@ This mod introduces unique rings with special abilities, advanced technology, an
 
 ## 🛠️ Current Features (v1.0.0 - In Development)
 - **Custom Creative Tab:** `SRT: Rings` (located on the second page).
-- **Flight Ring:** Grants creative-style flight in Survival mode (double-jump to activate).
-- **Night Vision Ring:** Grants permanent Night Vision while in the inventory (no particles).
-- **Speed Ring:** Grants Speed II while in the inventory.
+- **5 Unique Rings:**
+    - **Flight Ring:** Grants creative-style flight in Survival mode (double-jump to activate).
+    - **Night Vision Ring:** Grants permanent Night Vision while in the inventory.
+    - **Speed Ring:** Grants Speed II while in the inventory.
+    - **Invisibility Ring:** Grants Invisibility II while in the inventory.
+    - **Radiation Ring:** Grants Strength II and Resistance II, but causes Hunger and a chance of Poison (radiation sickness).
 - **Custom Crafting Recipes:** Unique recipes for each ring (including ring upgrades).
 - **Custom 16x16 Textures:** Hand-drawn pixel art for all items.
+- **Fully working RingHandler:** A custom event system that checks the player's inventory every tick to apply effects and flight.
 
 ## 🚀 Planned Features
-- 2 more rings (Invisibility, Radiation).
-- A custom GUI "Ring Case" to store up to 5 rings.
-- Advanced machines, reactors, and radiation mechanics.
+- A custom GUI "Ring Case" to store up to 5 rings in one item.
+- Advanced machines and reactors (starting with a Radiation Machine).
+- A full radiation system (spreading through the world).
 - Custom animations and 3D models.
 
 ## 📦 Installation
@@ -28,7 +32,6 @@ This mod introduces unique rings with special abilities, advanced technology, an
 ## 🧑‍💻 For Developers
 This mod is built using **Forge 1.16.5** and **Java 17** (compatible with Java 8).
 - Main class: `com.skyforces.srt.SRTMod`
-- Event Handlers: `com.skyforces.srt.utils.RingHandler`
 - Item Classes: `com.skyforces.srt.items`
 
 ## 📜 License
